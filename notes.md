@@ -9,7 +9,7 @@
 - langchain-openai - for working with open ai
 - langchain--chroma - for working with vector databases
 6. transformers - hugging face package for working with LLMs
-7. gradio - for building a demo or web app to easily share an MML app
+7. gradio - for building a demo or web app to easily share an MML app: https://www.gradio.app/guides/quickstart
 8. jupyter notebook - notebook env for interactive computing
 9. ipywidgets - widgets
 
@@ -18,3 +18,8 @@
 2. Use text classification (zero-shot) to sort books into fiction or non-fiction so users can also filter books based on this category.
 3. We found out how likely each book description is to have a certain emotional tone using fine-tuning text classification (so we can apply emotional semantics to search).
 4. A user-friendly interface to present the book recommender in a dashboard that people can use to get their book recommendations.
+
+## Next steps
+1. deploy gradio dashboard with hugging face
+2. write up learnings
+3. publish to portfolio
